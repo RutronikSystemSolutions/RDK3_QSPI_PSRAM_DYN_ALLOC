@@ -8,7 +8,7 @@ This example demonstrates how to configure and use the PSRAM APS1604M-3SQR-ZR  w
 
 ## Requirements
 
-- [ModusToolbox™ software](https://www.cypress.com/products/modustoolbox-software-environment) v2.4
+- [ModusToolbox™ software](https://www.cypress.com/products/modustoolbox-software-environment) v3.0
 
 ## The Provisioning of the RDK3
 
@@ -27,7 +27,7 @@ Please note that the “[Secure Policy Configurator](https://www.infineon.com/dg
 ### Using the code example with a ModusToolbox™ IDE:
 
 1. Import the project: **File** > **Import...** > **General** > **Existing Projects into Workspace** > **Next**.
-2. Select the directory where **"RDK3_QSPI_Flash_Access"** resides and click  **Finish**.
+2. Select the directory where **"RDK3_QSPI_DYN_ALLOC"** resides and click  **Finish**.
 3. Update the libraries using a **"Library Manager"** tool.
 4. Select and build the project **Project ** > **Build Project**.
 
