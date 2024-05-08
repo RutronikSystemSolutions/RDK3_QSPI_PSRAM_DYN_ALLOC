@@ -8,7 +8,13 @@ This example demonstrates how to configure and use the PSRAM APS1604M-3SQR-ZR  w
 
 ## Requirements
 
-- [ModusToolbox™ software](https://www.cypress.com/products/modustoolbox-software-environment) v3.0
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.0**]
+
+  **NOTE:** This code example will only be created successfully if you have a correct path to the memory configuration file APS1604M-3SQR-ZR.cymem set in qspi-configurator tool Settings->User Memory Folder. You may download the whole BSP from here: [TARGET_RDK3](https://github.com/RutronikSystemSolutions/TARGET_RDK3). The memory file resides in a config folder.
+
+## Supported toolchains (make variable 'TOOLCHAIN')
+
+- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
 ## The Provisioning of the RDK3
 
