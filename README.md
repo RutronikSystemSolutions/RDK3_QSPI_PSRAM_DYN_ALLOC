@@ -12,6 +12,16 @@ This example demonstrates how to configure and use the PSRAM APS1604M-3SQR-ZR  w
 
   **NOTE:** This code example will only be created successfully if you have a correct path to the memory configuration file APS1604M-3SQR-ZR.cymem set in qspi-configurator tool Settings->User Memory Folder. You may download the whole BSP from here: [TARGET_RDK3](https://github.com/RutronikSystemSolutions/TARGET_RDK3). The memory file resides in a config folder.
 
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.2**: 
+
+1. The [Python](https://www.python.org/) has to be installed manually on Windows OS.
+2. Make sure the Python installation is added to the path variable. 
+3. Use this command to install the [cysecuretools](https://pypi.org/project/cysecuretools/) package:
+
+```
+pip install cysecuretools
+```
+
 ## Supported toolchains (make variable 'TOOLCHAIN')
 
 - GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
